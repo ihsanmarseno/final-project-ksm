@@ -39,7 +39,6 @@ export default function Home() {
       </div>
       <ShorteningField />
       <InfoSection />
-      <CallToAction />
     </div>
   );
 }

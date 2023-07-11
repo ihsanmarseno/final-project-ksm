@@ -9,8 +9,7 @@ function InfoSection() {
       <div className="flex flex-col space-y-4 text-center lg:w-1/2 mx-auto lg:pb-10">
         <h1 className="font-bold text-4xl">Advanced Statistics</h1>
         <p className="text-gray-500 text-lg">
-          Track how your links are preforming across the web with our advanced
-          statistics dashboard.
+        Lacak bagaimana link Anda terbentuk di seluruh web dengan dashbord statistik lanjutan Kami.
         </p>
       </div>
 
@@ -20,19 +19,23 @@ function InfoSection() {
           <InfoCard
             icon={brandRecog}
             title="Brand Recognition"
-            subTitle="Boost your brand recognition with each click. Genertic links
-          don't mean a thing. Branded links help instil confidence in your
-          content."
+            subTitle="Tingkatkan pengenalan merk Anda dengan setiap klik,
+            Tautan yang bermerk membantu menanamkan kepercayaan
+            pada konten Anda."
           />
           <InfoCard
             icon={detailRec}
             title="Detailed Records"
-            subTitle="Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions."
+            subTitle="Dapatkan 
+            wawasan tentang siapa yang mengeklik tautan Anda. 
+            Mengetahui kapan dan di mana orang 
+            terlibat dengan konten Anda membantu menginformasikan 
+            keputusan yang lebih baik."
           />
           <InfoCard
             icon={fullyCustom}
             title="Fully Customizable"
-            subTitle="Improve brand awareness and content discoverability through customizable links, supercharging audience engagement."
+            subTitle="Tingkatkan kesadaran merk dan kemampuan menemukan konten melalui tautan yang dapat disesuaikan, meningkatkan keterlibatan audiens."
           />
         </div>
       </div>

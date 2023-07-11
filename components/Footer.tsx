@@ -8,7 +8,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <div className="bg-violet-950 flex flex-col items-center justify-center p-20 text-center space-y-8 md:flex-row md:items-start md:space-y-0 md:justify-between md:flex-wrap">
-      <h1 className="text-white font-bold text-4xl">Shortly</h1>
+      <h1 className="text-white font-bold text-4xl">Link.io</h1>
       <div className="flex flex-col space-y-3">
         <h2 className="text-white font-bold text-lg">Features</h2>
         <div className="text-gray-300 flex flex-col space-y-2">

@@ -33,12 +33,12 @@ function Navbar() {
         </div>
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex space-x-4 items-center font-bold">
-            <li className="bg-teal-400 text-white px-4 py-2 rounded-full hover:bg-teal-300">
+            <li className="bg-teal-400 text-white px-4 py-2 rounded-full hover:bg-teal-200">
               <Link href={"#"}>
                 Login
               </Link>
             </li>
-            <li className="bg-teal-400 text-white px-4 py-2 rounded-full hover:bg-teal-300">
+            <li className="bg-teal-400 text-white px-4 py-2 rounded-full hover:bg-teal-200">
               <Link href={"#"}>Sign Up</Link>
             </li>
           </ul>
@@ -47,11 +47,11 @@ function Navbar() {
         <div className="sm:hidden">
           {!toggle ? (
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns="http://www.w3.org/1000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
-              stroke="currentColor"
+              stroke="white"
               className="w-8 h-8 cursor-pointer"
               onClick={() => setToggle(true)}
             >
@@ -64,11 +64,11 @@ function Navbar() {
           ) : (
             <>
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="http://www.w3.org/1000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
-                stroke="currentColor"
+                stroke="white"
                 className="w-8 h-8 cursor-pointer"
                 onClick={() => setToggle(false)}
               >

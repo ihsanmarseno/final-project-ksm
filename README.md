@@ -1,9 +1,3 @@
-Final Project KSM Multimedia Url Shortener
-
-1. Ihsan Tri Marseno (2110511088)
-2. Muharim Awaluddin (2110511074)
-3. Wahyu Dhia Satwika (2110511066)
-
 Cara Run : 
 1. npm run build pada command
 2. npm run dev pada command
